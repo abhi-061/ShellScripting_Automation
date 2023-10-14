@@ -1,6 +1,6 @@
 #!/bin/bash
-may_date=`date -d '2023-04-01 +30 days' '+%Y-%m-%d'`
-echo $may_date
+aug_date=`date -d '2023-08-01 +30 days' '+%d-%m-%Y'`
+echo "The august month date is" $aug_date
 TWO=2
-april_date=`date -d '2023-04-03 -2 days' '+%Y-%m-%d'`
-echo $april_date
+oct_date=`date -d '2023-10-01 +14 days' '+%d-%m-%Y'`
+echo "Till todays date" $oct_date
